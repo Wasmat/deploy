@@ -143,5 +143,6 @@ def delete_data(id):
     
     return jsonify(context), 200
 
-app.run(debug=True)
+if __name__ == '__main__':
+    app.run()
            
